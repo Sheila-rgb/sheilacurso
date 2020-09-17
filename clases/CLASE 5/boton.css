@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+    background: #568CF8;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 2px 2px 10px #848795;
+}
+.uno{
+    font-size: 50px;
+    border-radius: 50%;
+    width: 100px;
+    height: 60px;
+}
+.dos{
+    border-radius: 2px;
+}
+.tres{
+    background: transparent;
+    color: #568CF8; 
+    box-shadow: none;
+}

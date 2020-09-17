@@ -1,0 +1,33 @@
+letter-spacing: 2pt;      /* para separar entgre letras */
+word-spacing: 5pt;        /* para separacion entre palabras */  
+line-height: 20pt;        /* para la separacion entre lineas */ 
+text-indent: 30pt;        /* para sangrias */ 
+list-style: none          /* para sacar puntos de ul*/
+
+Elementos mas utilizados en botones
+
+text-decoration: para quitarle el estilo de enlace, como el subrayado.
+font-weight: para darle cuerpo (tipo negrita) al texto del botón.
+font-size: el tamaño del texto en pixeles.
+color: color del texto en código hexadecimal.
+padding-top: el relleno superior del botón.
+padding-bottom: el relleno inferior del botón.
+padding-left: el relleno izquierdo del botón.
+padding-right: el relleno derecho del botón.
+background-color: color de fondo del botón.
+border-width: Anchura del borde en píxeles.
+border-color: color del borde en código hexadecimal.
+border-radius: redondeo del botón.
+border-style: el estilo del borde, línea, con puntos…
+display: (inline -block) completar info 
+
+SOMBREAR BOTONES/ CAJAS/ CONTENEDORES
+text-shadow posx-posy-size-color| none	                Aplica una sombra a un contenido de texto.
+box-shadow posx-posy-size-size-color inset | none	Aplica una sombra a una caja o contenedor.
+Los valores  y  nos permiten indicar las coordenadas de X e Y donde se situará la sombra, respecto a la posición del texto o contenedor original.
+
+El primer valor  es el blur, que no es otra cosa que el radio de desenfoque de la sombra (en px, em, etc...). Cuanto más bajo sea este valor, menos difuminada estará la sombra, cuanto más alto sea, más borrosa.
+
+El segundo valor  es el factor de crecimiento de la sombra. En algunos casos, en los que tenemos una sombra con muy poco desenfoque y las posiciones son 0, puede que la sombra quede justo detrás del elemento, sin poderse apreciar. Aumentando este valor, haremos que la sombra crezca hacia los lados el tamaño que indiquemos.
+
+Por último, podemos indicar el  a utilizar (recuerda que puedes utilizar canales alfa) y la palabra clave inset si queremos que la sombra sea interna, en lugar de externa que es la que aparece por defecto.
